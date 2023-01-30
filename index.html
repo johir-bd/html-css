@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+    <style>
+        body{
+            border: 1.0px;
+            background: cyan;
+            margin: auto;
+            padding: auto;
+            text-align: center;
+            margin-right: auto;
+            display: grid;
+
+        }
+    </style>
+    <script>
+    function Hello(){
+            let heading = document.querySelector('h1')
+            if(heading.innerHTML==='Hello'){
+                heading.innerHTML='GoodBye'
+
+            } else{
+                heading.innerHTML='Hello'
+
+            }    
+    }
+</script>
+</body>
+</head>
+<body>
+   <h1>Hello</h1> 
+   <button onclick="Hello()">Click me</button>
+</html>
